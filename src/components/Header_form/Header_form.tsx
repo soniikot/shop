@@ -1,0 +1,22 @@
+import heart from '../../assets/heart.svg';
+import user from '../../assets/user.svg';
+import shoppingCard from '../../assets/shopping-cart.svg';
+import './header_form.css';
+
+const Header_form = () => {
+  return (
+    <div className="header__form">
+      <button type="button">
+        <img src={heart} alt="like" />
+      </button>
+      <button type="button">
+        <img src={user} alt="like" />
+      </button>
+      <button type="button">
+        <img src={shoppingCard} alt="like" />
+      </button>
+    </div>
+  );
+};
+
+export default Header_form;
