@@ -1,4 +1,11 @@
 .header__menu {
   display: flex;
   gap: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: grey;
+}
+
+a:hover {
+  color: black;
 }

@@ -1,6 +1,6 @@
 import heart from '../../assets/heart.svg';
 import user from '../../assets/user.svg';
-import shoppingCard from '../../assets/shopping-cart.svg';
+import shoppingCart from '../../assets/shopping-cart.svg';
 import './header_form.css';
 
 const Header_form = () => {
@@ -13,7 +13,7 @@ const Header_form = () => {
         <img src={user} alt="like" />
       </button>
       <button type="button">
-        <img src={shoppingCard} alt="like" />
+        <img src={shoppingCart} alt="like" />
       </button>
     </div>
   );

@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 import Menu from '../Menu/Menu';
 import Search from '../Search/Search';
 import Header_form from '../Header_form/Header_form';
