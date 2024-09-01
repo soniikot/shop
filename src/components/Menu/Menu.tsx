@@ -6,7 +6,9 @@ const Menu = () => {
   return (
     <ul className="header__menu">
       {menuList.map((menuItem) => (
-        <li key={menuItem}>{menuItem}</li>
+        <li key={menuItem}>
+          <a>{menuItem}</a>
+        </li>
       ))}
     </ul>
   );
